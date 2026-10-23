@@ -1,0 +1,35 @@
+{
+  "id": "corona-item-forge",
+  "title": "Corona Item Forge",
+  "description": "Crea oggetti magici e artefatti per dnd5e con un solo modulo: rarità, sintonia, bonus alle caratteristiche, immunità, cariche e incantesimi lanciabili scelti dai tuoi incantesimi importati (Plutonium o compendi).",
+  "version": "0.1.0",
+  "url": "https://github.com/andrea760-noobcreator/corona-item-forge",
+  "manifest": "https://raw.githubusercontent.com/andrea760-noobcreator/corona-item-forge/main/module.json",
+  "download": "https://github.com/andrea760-noobcreator/corona-item-forge/releases/download/v0.1.0/corona-item-forge.zip",
+  "authors": [
+    {
+      "name": "Andrea"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.0.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/item-forge.js"
+  ],
+  "styles": [
+    "styles/item-forge.css"
+  ]
+}

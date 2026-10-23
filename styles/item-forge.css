@@ -1,0 +1,19 @@
+.corona-item-forge .window-content { padding: 0.75rem; overflow-y: auto; }
+.corona-item-forge fieldset { margin: 0 0 0.6rem; padding: 0.4rem 0.6rem 0.6rem; border-radius: 4px; }
+.corona-item-forge legend { font-weight: bold; }
+.corona-item-forge .if-row { display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.35rem; }
+.corona-item-forge .if-row > label { flex: 0 0 8rem; }
+.corona-item-forge .if-row > *:not(label) { flex: 1; }
+.corona-item-forge textarea { width: 100%; min-height: 4.5rem; resize: vertical; }
+.corona-item-forge .if-abilities { display: grid; grid-template-columns: repeat(6, 1fr); gap: 0.35rem; text-align: center; }
+.corona-item-forge .if-abilities input { text-align: center; }
+.corona-item-forge .if-drop { border: 2px dashed var(--color-border-light-tertiary, #888); border-radius: 4px; padding: 0.5rem; text-align: center; margin-bottom: 0.4rem; }
+.corona-item-forge .if-drop.hover { background: rgba(255, 200, 0, 0.15); }
+.corona-item-forge .if-spell, .corona-item-forge .if-result { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.25rem; }
+.corona-item-forge .if-spell img, .corona-item-forge .if-result img { width: 24px; height: 24px; border: none; }
+.corona-item-forge .if-spell .if-name, .corona-item-forge .if-result .if-name { flex: 1; }
+.corona-item-forge .if-spell input[type="number"] { width: 3.5rem; flex: 0 0 3.5rem; }
+.corona-item-forge .if-results { max-height: 8rem; overflow-y: auto; }
+.corona-item-forge .if-hint { font-size: 0.8rem; opacity: 0.75; }
+.corona-item-forge .if-create { width: 100%; margin-top: 0.4rem; }
+.corona-item-forge-btn { flex: 0 0 auto; }
